@@ -37,7 +37,7 @@ cat ritesh2.txt
 
 
 #Task 4
-#Store name, cpu useage and memory usage of all containers in a files named "Ram.txt"
+#Store name, cpu useage and memory usage of all containers in a files named "Ritesh.txt"
 ```
 docker stats --all --no-stream --format "table {{.Name}}\t{{.CPUPerc}}\t{{.MemUsage}}\t{{.MemPerc}}" > Ritesh.txt
 cat Ritesh.txt
