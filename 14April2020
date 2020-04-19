@@ -27,7 +27,6 @@ os.system("sudo docker ps")
 
 docker ps -a --format "table {{.Names}}\t{{.CreatedAt}}" > ritesh2.txt
 cat ritesh2.txt
-```
 
 
 
